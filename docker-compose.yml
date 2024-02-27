@@ -1,0 +1,7 @@
+version: "3.5"
+
+services:
+  endpoints:
+  image: senai-dsd-24
+  ports:
+    - "8010:8020"

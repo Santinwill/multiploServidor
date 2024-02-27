@@ -1,0 +1,5 @@
+fastapi
+requests
+json
+httpx
+pytest

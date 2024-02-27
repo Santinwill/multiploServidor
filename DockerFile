@@ -1,0 +1,7 @@
+FROM python:3.12-alpine
+
+COPY ./ /app/
+
+
+
+CMD exec uvicorn endpoints:app --port 8000 --reload
